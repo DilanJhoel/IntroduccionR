@@ -21,7 +21,7 @@ paises_andes <- c("Argentina", "Bolivia", "Chile", "Colombia", "Ecuador", "Perï¿
 Crear un dataframe con 12 eventos (files) y 5 variables (columnas), cada columna debe tener diferentes tipos de datos (entero, decimal, caracter, logico)
 ```{r}
 
-poblaciï¿½n_paises_america <- data.frame(identador = seq(1:12), norte_sur = as.factor(c(rep(0, 10), 1, 1)), paises = c("Argentina", "Bolivia","Brasil", "Chile", "Colombia", "Ecuador", "Paraguay", "Perï¿½", "Surinam", "Guyana", "USA", "Mï¿½xico"), poblaciï¿½n = c(45.38, 11.67, 212.6, 19.12, 50.88, 17.64, 0.79, 32.12, 329.5, 128.9, 350.5, 84.25)) #millones
+poblaciï¿½n_paises_america <- data.frame(identador = seq(1:12), norte_sur = as.factor(c(rep(0, 10), 1, 1)), paises = c("Argentina", "Bolivia","Brasil", "Chile", "Colombia", "Ecuador", "Paraguay", "Uruguay", "Surinam", "Guyana", "USA", "Mï¿½xico"), poblaciï¿½n = c(45.38, 11.67, 212.6, 19.12, 50.88, 17.64, 0.79, 32.12, 329.5, 128.9, 350.5, 84.25)) #millones
 ```
 
 ##D
